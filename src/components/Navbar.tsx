@@ -51,10 +51,10 @@ const Navbar = () => {
         ${scrollDir === "down" ? "max-md:-translate-y-32" : "max-md:translate-y-0"}
       `}
     >
-      <div className="px-10 py-3 md:py-5 flex items-center justify-between relative rounded-full bg-primary shadow-xl">
-        <Link to="/" className="flex items-center gap-2 px-5">
-          <img src="/logo2.png" alt="UMar Logo" className="hidden h-5 md:h-5" /> 
-          <span className=" md:inline font-bold text-lg">UMar</span>
+      <div className="h-16 md:h-18 px-5 md:px-10 flex items-center justify-between relative rounded-full bg-primary shadow-xl">
+        <Link to="/" className="flex items-center gap-2 px-2">
+          <img src="/logo2.png" alt="UMar Logo" className="h-15 md:h-17" />
+          <span className="hidden font-bold text-lg">UMar</span>
         </Link>
 
         <ul className="hidden md:flex gap-6 md:gap-2 justify-center absolute left-1/2 transform -translate-x-1/2">
@@ -62,7 +62,7 @@ const Navbar = () => {
             <li key={item.path}>
               <Link
                 to={item.path}
-                className="hover:text-secondary transition-colors py-5 px-5 duration-300 font-medium"
+                className="hover:text-secondary transition-colors py-5 px-5 duration-300 font-medium whitespace-nowrap"
               >
                 {item.label}
               </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
         </ul>
 
         <button
-          className="hidden md:flex items-center gap-1 text-white px-3 py-1 rounded-full hover:text-secondary"
+          className="hidden md:flex items-center gap-1 text-white px-2 py-1 rounded-full hover:text-secondary transition-colors"
           onClick={() => setLang(lang === "pt" ? "en" : "pt")}
           aria-label="Change language"
         >
@@ -105,8 +105,8 @@ const Navbar = () => {
           rounded-3xl shadow-xl
           flex flex-col gap-2
           transform transition-all duration-200 origin-top
-          ${mobileOpen 
-            ? "scale-y-100 opacity-100" 
+          ${mobileOpen
+            ? "scale-y-100 opacity-100"
             : "scale-y-0 opacity-0 pointer-events-none"}
         `}
       >
@@ -114,7 +114,7 @@ const Navbar = () => {
           <li key={item.path}>
             <Link
               to={item.path}
-            className="block w-full hover:text-secondary text-center transition-colors duration-300 font-medium py-2 px-4"
+              className="block w-full hover:text-secondary text-center transition-colors duration-300 font-medium py-2 px-4"
               onClick={() => setMobileOpen(false)}
             >
               {item.label}
@@ -122,7 +122,7 @@ const Navbar = () => {
           </li>
         ))}
         <button
-          className="flex items-center gap-1 text-white px-3 py-1 rounded-full mt-2 w-fit mx-auto"
+          className="flex items-center gap-1 text-white px-3 py-1 rounded-full mt-2 w-fit max-md:mx-auto"
           onClick={() => setLang(lang === "pt" ? "en" : "pt")}
         >
           <span>{lang === "pt" ? "🇬🇧" : "🇵🇹"}</span>

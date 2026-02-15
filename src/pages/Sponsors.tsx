@@ -1,8 +1,27 @@
+import { useLang } from "../hooks/useLang";
+import { translations } from "../translations";
+import { Link } from "react-router-dom";
+
 const Sponsors = () => {
+  const { lang } = useLang();
+  const t = translations[lang];
+
   return (
-    <section className="container mx-auto text-center py-20">
-      <h1 className="text-4xl font-bold">Sponsors Page</h1>
-      <p>Agradecemos aos nossos patrocinadores.</p>
+    <section className="bg-white flex flex-col items-center justify-center py-12 px-6 md:px-20 min-h-[70vh]">
+      <div className="max-w-3xl text-center">
+        <h1 className="text-2xl md:text-3xl font-heading font-bold text-primary mb-4">
+          {t.sponsorTitle}
+        </h1>
+        <p className="text-base md:text-lg text-tertiary/80 leading-relaxed mb-6 max-w-xl mx-auto max-md:px-4">
+          {t.sponsorDescription}
+        </p>
+        <Link
+          to="/contact"
+          className="inline-block px-8 py-3 md:px-10 md:py-4 rounded-full font-semibold bg-primary text-primary-foreground shadow-lg transition-all duration-300 hover:bg-secondary"
+        >
+          {t.contact}
+        </Link>
+      </div>
     </section>
   );
 };
