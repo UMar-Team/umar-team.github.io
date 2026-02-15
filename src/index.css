@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Theme tokens (Tailwind v4) */
+@theme {
+  /* Colors */
+  --color-primary: #001b3d;
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #ff3131;
+  --color-secondary-foreground: #ffffff;
+
+  --color-muted: #f3f4f6;
+  --color-muted-foreground: #4b5563;
+
+  --color-tertiary: #121212;
+  --color-quaternary: #FFFFFF;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Fonts */
+  --font-sans: "Calibri", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+}
