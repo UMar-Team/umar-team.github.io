@@ -39,14 +39,14 @@ const About = () => {
         <div className="max-w-6xl mx-auto text-center">
 
           <h2 className="text-2xl font-bold mb-10">
-            {t.missionTitle}
+            {t.missionSectionTitle}
           </h2>
 
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            <MissionValueCard icon={<Target />} title="Missão" description={t.mission} variant="highlighted" />
-            <MissionValueCard icon={<Earth />} title="Visão" description={t.vision} />
-            <MissionValueCard icon={<Handshake />} title="Valores" description={t.values} />
-            <MissionValueCard icon={<Rocket />} title="Objetivos" description={t.goals} />
+            <MissionValueCard icon={<Target />} title={t.missionTitle} description={t.mission} variant="highlighted" />
+            <MissionValueCard icon={<Earth />} title={t.visionTitle} description={t.vision} />
+            <MissionValueCard icon={<Handshake />} title={t.valuesTitle} description={t.values} />
+            <MissionValueCard icon={<Rocket />} title={t.goalsTitle} description={t.goals} />
           </div>
         </div>
       </section>

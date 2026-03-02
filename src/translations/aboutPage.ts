@@ -15,10 +15,14 @@ export const aboutPage = {
     ],
     competitionCTA: "Visitar o Site Oficial da Competição",
 
-    missionTitle: "A Nossa Missão",
+    missionSectionTitle: "A Nossa Missão",
+    missionTitle: "Missão",
     mission: "Desenvolver soluções marítimas inovadoras e sustentáveis, promovendo aprendizagem prática, segurança e excelência técnica.",
+    visionTitle: "Visão",
     vision: "Ser uma referência nacional na formação de talento e na criação de protótipos sustentáveis e competitivos.",
+    valuesTitle: "Valores",
     values: "Curiosidade, colaboração, inovação responsável, rigor técnico e espírito de equipa.",
+    goalsTitle: "Objetivos",
     goals: "Conceber e testar embarcações competitivas, formar estudantes com competências práticas avançadas e representar a universidade com profissionalismo.",
 
     departmentsTitle: "Os Nossos Departamentos",
@@ -55,10 +59,14 @@ export const aboutPage = {
     ],
     competitionCTA: "Visit the Official Competition Website",
 
-    missionTitle: "Our Mission",
+    missionSectionTitle: "Our Mission",
+    missionTitle: "Mission",
     mission: "Develop innovative and sustainable maritime solutions while promoting hands-on learning, safety and technical excellence.",
+    visionTitle: "Vision",
     vision: "To become a national reference in talent development and in the creation of sustainable and competitive prototypes.",
+    valuesTitle: "Values",
     values: "Curiosity, collaboration, responsible innovation, technical rigor and team spirit.",
+    goalsTitle: "Goals",
     goals: "Design and test competitive boats, train students with advanced practical skills and represent the university with professionalism.",
 
     departmentsTitle: "Our Departments",
