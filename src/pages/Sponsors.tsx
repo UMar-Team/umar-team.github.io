@@ -7,7 +7,7 @@ const Sponsors = () => {
   const t = translations[lang];
 
   return (
-    <section className="bg-white flex flex-col items-center justify-center py-12 px-6 md:px-20 min-h-[70vh]">
+    <section className="h-screen md:overflow-hidden bg-quaternary flex flex-col items-center justify-center py-12 px-6 md:px-20 min-h-screen">
       <div className="max-w-3xl text-center">
         <h1 className="text-2xl md:text-3xl font-heading font-bold text-primary mb-4">
           {t.sponsorTitle}

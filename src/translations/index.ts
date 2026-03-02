@@ -1,6 +1,9 @@
+import { aboutPage } from "./aboutPage";
+
 export const translations = {
   pt: {
     home: "Início",
+    homeButton: "Conheça a nossa equipa",
     about: "Sobre Nós",
     sponsors: "Patrocinadores",
     recruitment: "Recrutamento",
@@ -9,7 +12,6 @@ export const translations = {
     // Contact page
     contactTitle: "Contactos",
     contactDescription: "Se tiver alguma questão ou quiser colaborar connosco, entre em contacto.",
-    contactEmailLabel: "Email",
     contactEmail: "umar.aquaticracing@gmail.com",
     contactCTA: "Enviar Email",
 
@@ -17,9 +19,13 @@ export const translations = {
     sponsorTitle: "Patrocínios",
     sponsorDescription:
       "Apoiar a nossa equipa é investir em inovação e talento académico. Conheça as parcerias disponíveis e como colaborar connosco.",
+
+    recruitmentDescription: "Novidades em breve!",
+    aboutPage: aboutPage.pt,
   },
   en: {
     home: "Home",
+    homeButton: "Get to know our team",
     about: "About Us",
     sponsors: "Sponsors",
     recruitment: "Recruitment",
@@ -28,7 +34,6 @@ export const translations = {
     // Contact page
     contactTitle: "Contacts",
     contactDescription: "If you have any questions or want to collaborate with us, get in touch.",
-    contactEmailLabel: "Email",
     contactEmail: "umar.aquaticracing@gmail.com",
     contactCTA: "Send Email",
 
@@ -36,5 +41,8 @@ export const translations = {
     sponsorTitle: "Sponsors",
     sponsorDescription:
       "Supporting our team means investing in innovation and academic talent. Discover the available partnerships and how to collaborate with us.",
+
+    recruitmentDescription: "News coming soon!",
+    aboutPage: aboutPage.en,
   },
 };
