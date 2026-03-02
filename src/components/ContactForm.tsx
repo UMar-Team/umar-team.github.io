@@ -28,7 +28,7 @@ const EmailForm = () => {
       onSubmit={handleSubmit}
       className="max-w-lg mx-auto bg-muted p-6 md:p-10 rounded-xl shadow-md flex flex-col gap-6"
     >
-      <h2 className="text-2xl font-bold text-primary mb-4">
+      <h2 className="text-xl font-bold text-primary mb-4">
         {t.contactCTA}
       </h2>
 

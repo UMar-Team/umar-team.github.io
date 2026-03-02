@@ -44,10 +44,10 @@ const Navbar = () => {
   return (
     <nav
       className={`
-        fixed top-4 left-2 right-2 md:m-10 z-50 
+        fixed max-md:top-4 left-2 right-2 md:m-10 z-50 
         text-white md:mt-4
         transition-transform duration-300
-        md:static md:backdrop-blur-0
+        md:backdrop-blur-0 bg-transparent
         ${scrollDir === "down" ? "max-md:-translate-y-32" : "max-md:translate-y-0"}
       `}
     >
