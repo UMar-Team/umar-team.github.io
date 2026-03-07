@@ -35,7 +35,7 @@ const About = () => {
         imagePosition="left"
       />
 
-      <section className="py-20 px-5 bg-[#001b3d] text-white">
+      <section className="py-20 px-5 bg-primary text-white">
         <div className="max-w-6xl mx-auto text-center">
 
           <h2 className="text-2xl font-bold mb-10">

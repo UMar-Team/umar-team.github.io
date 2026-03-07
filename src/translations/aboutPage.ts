@@ -57,7 +57,7 @@ export const aboutPage = {
       "The Portugal Boat Challenge is an annual competition of boats powered by renewable energies for university students.",
       "The event includes different challenges that test performance, durability, manoeuvrability and the quality of the project and technical presentation."
     ],
-    competitionCTA: "Visit the Official Competition Website",
+    competitionCTA: "Visit the Competition Website",
 
     missionSectionTitle: "Our Mission",
     missionTitle: "Mission",

@@ -7,6 +7,7 @@ const VideoBackground = () => {
       loop
       muted
       playsInline
+      preload="none"
     />
   );
 };

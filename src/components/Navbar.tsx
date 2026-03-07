@@ -37,7 +37,8 @@ const Navbar = () => {
 
   useEffect(() => {
     if (scrollDir === "down") {
-      setMobileOpen(false);
+      const id = setTimeout(() => setMobileOpen(false), 0);
+      return () => clearTimeout(id);
     }
   }, [scrollDir]);
 

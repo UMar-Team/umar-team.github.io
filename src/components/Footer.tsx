@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-4 mt-4">
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/umaruminho"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-secondary transition-colors"
