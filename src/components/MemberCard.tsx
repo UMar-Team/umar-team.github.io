@@ -53,9 +53,9 @@ const MemberCard: React.FC<MemberCardProps> = ({
         </div>
 
         <div className="p-4 text-center flex flex-col gap-1 mt-auto">
-          <h3 className="text-lg font-bold text-[#001b3d]">{name}</h3>
+          <h3 className="text-lg font-bold text-primary">{name}</h3>
           {role && (
-            <p className="text-sm font-medium text-[#ff3131] uppercase">
+            <p className="text-sm font-medium text-secondary uppercase">
               {role}
             </p>
           )}

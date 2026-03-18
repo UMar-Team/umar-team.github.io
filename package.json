@@ -2,7 +2,7 @@
   "name": "umar-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://UMar-Team.github.io",
+  "homepage": "https://umar-team.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
