@@ -1,4 +1,4 @@
-import{u as m,r as n,j as e,t as d,M as f,I as b,a as y}from"./index-C6p41Rms.js";const j=()=>{const{lang:r}=m(),t=d[r],[s,i]=n.useState(""),[o,c]=n.useState(""),[l,x]=n.useState(""),u=a=>{a.preventDefault();const p=encodeURIComponent(`Contact from ${s}`),g=encodeURIComponent(`Name: ${s}
+import{u as m,r as n,j as e,t as d,M as f,I as b,a as y}from"./index-D1sML90U.js";const j=()=>{const{lang:r}=m(),t=d[r],[s,i]=n.useState(""),[o,c]=n.useState(""),[l,x]=n.useState(""),u=a=>{a.preventDefault();const p=encodeURIComponent(`Contact from ${s}`),g=encodeURIComponent(`Name: ${s}
 Email: ${o}
 
 Message:
