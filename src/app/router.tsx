@@ -8,16 +8,18 @@ const Contacts = lazy(() => import("../pages/Contacts"));
 const AboutUs = lazy(() => import("../pages/AboutUs"));
 const Recruitment = lazy(() => import("../pages/Recruitment"));
 
-export const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      { index: true, element: <Home /> },
-      { path: "about", element: <AboutUs /> },
-      { path: "sponsors", element: <Sponsors /> },
-      { path: "recruitment", element: <Recruitment /> },
-      { path: "contact", element: <Contacts /> },
-    ],
-  },
-]);
+export function makeRouter() {
+  return createBrowserRouter([
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        { index: true, element: <Home /> },
+        { path: "about", element: <AboutUs /> },
+        { path: "sponsors", element: <Sponsors /> },
+        { path: "recruitment", element: <Recruitment /> },
+        { path: "contact", element: <Contacts /> },
+      ],
+    },
+  ]);
+}
