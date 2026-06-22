@@ -8,10 +8,13 @@ import { departments } from "../data/departments";
 import { members } from "../data/members";
 import { translations } from "../translations";
 import { useLang } from "../hooks/useLang";
+import { usePageMeta } from "../hooks/usePageMeta";
 
 const About = () => {
   const { lang } = useLang();
   const t = translations[lang].aboutPage;
+  const tRoot = translations[lang];
+  usePageMeta(tRoot.pageMeta.about);
 
   return (
     <div className="mt-[10vh]">

@@ -15,6 +15,10 @@ export const LangProvider = ({ children }: { children: ReactNode }) => {
     setLang(userLang.startsWith("pt") ? "pt" : "en");
   }, []);
 
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
+
   return <LangContext.Provider value={{ lang, setLang }}>{children}</LangContext.Provider>;
 };
 

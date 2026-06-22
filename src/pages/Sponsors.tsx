@@ -1,10 +1,12 @@
 import { useLang } from "../hooks/useLang";
 import { translations } from "../translations";
 import { Link } from "react-router-dom";
+import { usePageMeta } from "../hooks/usePageMeta";
 
 const Sponsors = () => {
   const { lang } = useLang();
   const t = translations[lang];
+  usePageMeta(t.pageMeta.sponsors);
 
   return (
     <section className="h-screen md:overflow-hidden bg-quaternary flex flex-col items-center justify-center py-12 px-6 md:px-20 min-h-screen">

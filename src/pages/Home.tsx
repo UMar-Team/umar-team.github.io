@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 import VideoBackground from "../components/VideoBackground";
 import { useLang } from "../hooks/useLang";
 import { translations } from "../translations";
+import { usePageMeta } from "../hooks/usePageMeta";
 
 const Home = () => {
   const { lang } = useLang();
   const t = translations[lang];
+  usePageMeta(t.pageMeta.home);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

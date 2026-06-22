@@ -2,10 +2,12 @@ import { useLang } from "../hooks/useLang";
 import { translations } from "../translations";
 import { Mail, Instagram, Linkedin } from "lucide-react";
 import ContactForm from "../components/ContactForm";
+import { usePageMeta } from "../hooks/usePageMeta";
 
 const Contacts = () => {
   const { lang } = useLang();
   const t = translations[lang];
+  usePageMeta(t.pageMeta.contact);
 
   return (
     <section className="min-h-screen bg-quaternary md:overflow-hidden px-6 md:px-20 py-12 md:pt-[25vh] max-md:mt-20">
@@ -58,7 +60,8 @@ const Contacts = () => {
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/umaruminho/"
+              target="_blank"
               className="group rounded-2xl  md:p-8 flex items-start gap-4 md:gap-6 transition-all duration-300 mb-5"
             >
               <div className="shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center bg-primary text-primary-foreground group-hover:bg-secondary transition-all duration-300">
@@ -70,7 +73,7 @@ const Contacts = () => {
                   LinkedIn
                 </h3>
                 <p className="text-base md:text-lg font-medium text-primary group-hover:text-secondary transition-colors duration-300 break-all">
-                  linkedin
+                  UMar
                 </p>
               </div>
             </a>
