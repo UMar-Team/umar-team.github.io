@@ -1,0 +1,1 @@
+import{r as a}from"./index-B_crlI8D.js";const r=({title:e,description:t})=>{a.useEffect(()=>{const o="UMar";document.title=e?`${e} | ${o}`:o;const s=document.querySelector('meta[name="description"]');s&&s.setAttribute("content",t)},[e,t])};export{r as u};
