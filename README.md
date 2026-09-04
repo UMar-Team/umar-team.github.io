@@ -47,3 +47,7 @@ This project uses **GitHub Pages** for hosting.
 
 - **Automatic deployment**: The `predeploy` and `deploy` scripts in `package.json` handle the deployment to the `gh-pages` branch.
 - **Homepage**: Ensure the `homepage` field in `package.json` points to the correct URL (e.g., `https://UMar-Team.github.io`).
+
+```bash
+npm run deploy
+```

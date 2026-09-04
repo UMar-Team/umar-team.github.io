@@ -1,4 +1,4 @@
-import { Cog, Zap, Megaphone } from "lucide-react";
+import { Cog, Zap, Megaphone, CircleUser } from "lucide-react";
 import { translations } from "../translations";
 
 type AboutPage = typeof translations.pt.aboutPage;
@@ -7,7 +7,7 @@ export type AboutStringKeys = {
   [K in keyof AboutPage]: AboutPage[K] extends string ? K : never;
 }[keyof AboutPage];
 
-export type DepartmentColor = "blue" | "red" | "dark";
+export type DepartmentColor = "blue" | "red" | "dark" | "orange";
 
 interface Department {
   titleKey: AboutStringKeys;
@@ -34,6 +34,12 @@ export const departments: Department[] = [
     titleKey: "marketingTitle",
     descriptionKey: "marketingDescription",
     icon: Megaphone,
+    color: "orange",
+  },
+  {
+    titleKey: "managementTitle",
+    descriptionKey: "managementDescription",
+    icon: CircleUser,
     color: "dark",
   }
 ];

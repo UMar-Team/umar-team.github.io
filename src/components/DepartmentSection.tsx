@@ -1,4 +1,4 @@
-export type DepartmentColor = "blue" | "red" | "dark";
+export type DepartmentColor = "blue" | "red" | "dark" | "orange";
 export interface DepartmentSectionProps {
   title: string;
   description: string;
@@ -18,6 +18,7 @@ const DepartmentSection: React.FC<DepartmentSectionProps> = ({
     blue: { bg: 'bg-blue-100', text: 'text-blue-800', tagBg: 'bg-blue-200' },
     red: { bg: 'bg-red-100', text: 'text-red-800', tagBg: 'bg-red-200' },
     dark: { bg: 'bg-gray-200', text: 'text-gray-800', tagBg: 'bg-gray-400' },
+    orange: { bg: 'bg-orange-100', text: 'text-orange-800', tagBg: 'bg-orange-200' },
   };
 
   const colors = colorMap[color] || colorMap.dark;

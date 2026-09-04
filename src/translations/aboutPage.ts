@@ -35,11 +35,16 @@ export const aboutPage = {
     electronicsDescription:
       "Desenvolve e integra os painéis solares, sistema de armazenamento de energia, motor elétrico, cablagem e telemetria de monitorização.",
 
-    marketingTitle: "Marketing & Gestão",
+    marketingTitle: "Marketing",
     marketingDescription:
       "Responsável pela identidade visual, design gráfico e comunicação digital da equipa.",
 
+    managementTitle: "Gestão e Parcerias",
+    managementDescription:
+      "Responsável pela gestão da equipa, finanças, patrocínios e recursos humanos.",
+
     teamTitle: "A Nossa Equipa",
+    allDepartments: "Todos",
     joinCTA: "Junta-te a nós!"
   },
 
@@ -79,11 +84,16 @@ export const aboutPage = {
     electronicsDescription:
       "Develops and integrates solar panels, energy storage systems, electric motor, wiring and monitoring telemetry.",
 
-    marketingTitle: "Marketing & Management",
+    marketingTitle: "Marketing",
     marketingDescription:
       "Responsible for the team’s visual identity, graphic design and digital communication.",
 
+    managementTitle: "Management & Partnerships",
+    managementDescription:
+      "Responsible for the team’s management, finances, sponsorships and human resources.",
+
     teamTitle: "Our Team",
+    allDepartments: "All",
     joinCTA: "Join Us!"
   }
 }

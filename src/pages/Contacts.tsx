@@ -60,7 +60,7 @@ const Contacts = () => {
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/in/umaruminho/"
+              href="https://www.linkedin.com/company/umaruminho/"
               target="_blank"
               className="group rounded-2xl  md:p-8 flex items-start gap-4 md:gap-6 transition-all duration-300 mb-5"
             >
